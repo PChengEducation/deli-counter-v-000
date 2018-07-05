@@ -15,7 +15,9 @@ puts "The line is currently: #{new_list.join" "}"
     end
   end
 
-
-  #puts "Welcome, #{name}. You are number #{line_number} in line."
-#end
-#end
+def take_a_number (katz_deli, wish_list)
+  katz_deli.each do |name|
+  line_number = katz_deli.index(name) + 1
+  puts "Welcome, #{name}. You are number #{line_number} in line."
+end
+end
