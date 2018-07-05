@@ -13,6 +13,7 @@ def line(katz_deli)
     end
 puts "The line is currently: #{new_list}"
     end
+  end
 
 
   #puts "Welcome, #{name}. You are number #{line_number} in line."
