@@ -14,8 +14,7 @@ def line(katz_deli)
 puts "The line is currently: #{new_list}"
     end
 
-  
-  puts "Welcome, #{name}. You are number #{line_number} in line."
-end
-end
-end
+
+  #puts "Welcome, #{name}. You are number #{line_number} in line."
+#end
+#end
