@@ -19,7 +19,7 @@ def take_a_number (katz_deli, wish_join)
   if katz_deli.length <= 0
     katz_deli.push(wish_join)
     puts "Welcome, #{katz_deli[0]}. You are number 1 in line."
-  else
+  elsif katz_deli.length >= 1
   katz_deli.push(wish_join)
   puts "Welcome, #{katz_deli[-1]}. You are number 4 in line."
 end
