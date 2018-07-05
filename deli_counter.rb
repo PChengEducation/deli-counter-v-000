@@ -24,4 +24,3 @@ def take_a_number (katz_deli, wish_join)
   puts "Welcome, #{katz_deli[-1]}. You are number 4 in line."
 end
 end
-end
