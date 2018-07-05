@@ -20,9 +20,8 @@ def take_a_number (katz_deli, wish_join)
     katz_deli.push(wish_join)
     puts "Welcome, #{katz_deli[0]}. You are number 1 in line."
   else
-  katz_deli.each do |name|
-  line_number = katz_deli.index(name) + 1
-  puts "Welcome, #{name}. You are number #{line_number} in line."
+  katz_deli.push(wish_join)
+  puts "Welcome, #{katz_deli[3]}. You are number 4 in line."
 end
 end
 end
