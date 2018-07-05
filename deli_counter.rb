@@ -6,7 +6,7 @@ def line(katz_deli)
     return puts "The line is currently empty."
   else
 katz_deli.each do |name|
-  puts "Welcome, #{name}. You are number #{katz_deli.index} in line."
+  puts "Welcome, #{name}. You are number #{katz_deli.index(name)} in line."
 end
 end
 end
