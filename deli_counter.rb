@@ -11,7 +11,7 @@ def line(katz_deli)
       combine =  "#{line_number}. #{name}"
       new_list.push(combine)
     end
-puts "The line is currently: #{new_list.join", "}"
+puts "The line is currently: #{new_list.join","}"
     end
   end
 
